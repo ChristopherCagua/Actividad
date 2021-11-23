@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\bin\Debug\ACTIVIDAD.exe.config
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\bin\Debug\ACTIVIDAD.exe
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\bin\Debug\ACTIVIDAD.pdb
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.frmACTIVIDAD.resources
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.Properties.Resources.resources
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.exe
+C:\Users\PC\source\repos\ACTIVIDAD\ACTIVIDAD\obj\Debug\ACTIVIDAD.pdb
