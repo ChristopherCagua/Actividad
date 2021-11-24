@@ -32,14 +32,14 @@ namespace ACTIVIDAD
             this.label1 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.casilla1 = new System.Windows.Forms.CheckBox();
-            this.casilla2 = new System.Windows.Forms.CheckBox();
-            this.casilla3 = new System.Windows.Forms.CheckBox();
-            this.casilla4 = new System.Windows.Forms.CheckBox();
-            this.casilla5 = new System.Windows.Forms.CheckBox();
-            this.casilla6 = new System.Windows.Forms.CheckBox();
-            this.casilla7 = new System.Windows.Forms.CheckBox();
             this.casilla8 = new System.Windows.Forms.CheckBox();
+            this.casilla7 = new System.Windows.Forms.CheckBox();
+            this.casilla6 = new System.Windows.Forms.CheckBox();
+            this.casilla5 = new System.Windows.Forms.CheckBox();
+            this.casilla4 = new System.Windows.Forms.CheckBox();
+            this.casilla3 = new System.Windows.Forms.CheckBox();
+            this.casilla2 = new System.Windows.Forms.CheckBox();
+            this.casilla1 = new System.Windows.Forms.CheckBox();
             this.btnProcesar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -77,59 +77,15 @@ namespace ACTIVIDAD
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Equivalente a Binario";
             // 
-            // casilla1
+            // casilla8
             // 
-            this.casilla1.AutoSize = true;
-            this.casilla1.Location = new System.Drawing.Point(18, 35);
-            this.casilla1.Name = "casilla1";
-            this.casilla1.Size = new System.Drawing.Size(15, 14);
-            this.casilla1.TabIndex = 0;
-            this.casilla1.UseVisualStyleBackColor = true;
-            // 
-            // casilla2
-            // 
-            this.casilla2.AutoSize = true;
-            this.casilla2.Location = new System.Drawing.Point(55, 35);
-            this.casilla2.Name = "casilla2";
-            this.casilla2.Size = new System.Drawing.Size(15, 14);
-            this.casilla2.TabIndex = 1;
-            this.casilla2.UseVisualStyleBackColor = true;
-            // 
-            // casilla3
-            // 
-            this.casilla3.AutoSize = true;
-            this.casilla3.Location = new System.Drawing.Point(90, 35);
-            this.casilla3.Name = "casilla3";
-            this.casilla3.Size = new System.Drawing.Size(15, 14);
-            this.casilla3.TabIndex = 2;
-            this.casilla3.UseVisualStyleBackColor = true;
-            // 
-            // casilla4
-            // 
-            this.casilla4.AutoSize = true;
-            this.casilla4.Location = new System.Drawing.Point(128, 35);
-            this.casilla4.Name = "casilla4";
-            this.casilla4.Size = new System.Drawing.Size(15, 14);
-            this.casilla4.TabIndex = 3;
-            this.casilla4.UseVisualStyleBackColor = true;
-            // 
-            // casilla5
-            // 
-            this.casilla5.AutoSize = true;
-            this.casilla5.Location = new System.Drawing.Point(165, 35);
-            this.casilla5.Name = "casilla5";
-            this.casilla5.Size = new System.Drawing.Size(15, 14);
-            this.casilla5.TabIndex = 4;
-            this.casilla5.UseVisualStyleBackColor = true;
-            // 
-            // casilla6
-            // 
-            this.casilla6.AutoSize = true;
-            this.casilla6.Location = new System.Drawing.Point(201, 35);
-            this.casilla6.Name = "casilla6";
-            this.casilla6.Size = new System.Drawing.Size(15, 14);
-            this.casilla6.TabIndex = 5;
-            this.casilla6.UseVisualStyleBackColor = true;
+            this.casilla8.AutoSize = true;
+            this.casilla8.Location = new System.Drawing.Point(280, 35);
+            this.casilla8.Name = "casilla8";
+            this.casilla8.Size = new System.Drawing.Size(15, 14);
+            this.casilla8.TabIndex = 7;
+            this.casilla8.UseVisualStyleBackColor = true;
+            this.casilla8.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
             // 
             // casilla7
             // 
@@ -139,16 +95,67 @@ namespace ACTIVIDAD
             this.casilla7.Size = new System.Drawing.Size(15, 14);
             this.casilla7.TabIndex = 6;
             this.casilla7.UseVisualStyleBackColor = true;
-            this.casilla7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
+            this.casilla7.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
             // 
-            // casilla8
+            // casilla6
             // 
-            this.casilla8.AutoSize = true;
-            this.casilla8.Location = new System.Drawing.Point(280, 35);
-            this.casilla8.Name = "casilla8";
-            this.casilla8.Size = new System.Drawing.Size(15, 14);
-            this.casilla8.TabIndex = 7;
-            this.casilla8.UseVisualStyleBackColor = true;
+            this.casilla6.AutoSize = true;
+            this.casilla6.Location = new System.Drawing.Point(201, 35);
+            this.casilla6.Name = "casilla6";
+            this.casilla6.Size = new System.Drawing.Size(15, 14);
+            this.casilla6.TabIndex = 5;
+            this.casilla6.UseVisualStyleBackColor = true;
+            this.casilla6.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
+            // 
+            // casilla5
+            // 
+            this.casilla5.AutoSize = true;
+            this.casilla5.Location = new System.Drawing.Point(165, 35);
+            this.casilla5.Name = "casilla5";
+            this.casilla5.Size = new System.Drawing.Size(15, 14);
+            this.casilla5.TabIndex = 4;
+            this.casilla5.UseVisualStyleBackColor = true;
+            this.casilla5.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
+            // 
+            // casilla4
+            // 
+            this.casilla4.AutoSize = true;
+            this.casilla4.Location = new System.Drawing.Point(128, 35);
+            this.casilla4.Name = "casilla4";
+            this.casilla4.Size = new System.Drawing.Size(15, 14);
+            this.casilla4.TabIndex = 3;
+            this.casilla4.UseVisualStyleBackColor = true;
+            this.casilla4.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
+            // 
+            // casilla3
+            // 
+            this.casilla3.AutoSize = true;
+            this.casilla3.Location = new System.Drawing.Point(90, 35);
+            this.casilla3.Name = "casilla3";
+            this.casilla3.Size = new System.Drawing.Size(15, 14);
+            this.casilla3.TabIndex = 2;
+            this.casilla3.UseVisualStyleBackColor = true;
+            this.casilla3.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
+            // 
+            // casilla2
+            // 
+            this.casilla2.AutoSize = true;
+            this.casilla2.Location = new System.Drawing.Point(55, 35);
+            this.casilla2.Name = "casilla2";
+            this.casilla2.Size = new System.Drawing.Size(15, 14);
+            this.casilla2.TabIndex = 1;
+            this.casilla2.UseVisualStyleBackColor = true;
+            this.casilla2.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
+            // 
+            // casilla1
+            // 
+            this.casilla1.AutoSize = true;
+            this.casilla1.Location = new System.Drawing.Point(18, 35);
+            this.casilla1.Name = "casilla1";
+            this.casilla1.Size = new System.Drawing.Size(15, 14);
+            this.casilla1.TabIndex = 0;
+            this.casilla1.UseVisualStyleBackColor = true;
+            this.casilla1.CheckedChanged += new System.EventHandler(this.casilla1_CheckedChanged);
             // 
             // btnProcesar
             // 

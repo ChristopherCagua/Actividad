@@ -17,11 +17,6 @@ namespace ACTIVIDAD
             InitializeComponent();
         }
 
-        private void checkBox7_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnProcesar_Click(object sender, EventArgs e)
         {
             int numero = int.Parse(this.txtNumero.Text);
@@ -116,6 +111,26 @@ namespace ACTIVIDAD
             }
 
             return bin;
+        }
+
+        private void casilla1_CheckedChanged(object sender, EventArgs e)
+        {
+            {
+                sumaBinarioaDecimal();
+            }
+            void sumaBinarioaDecimal()
+            {
+                int num = 0;
+                if (casilla1.Checked) num += 1;
+                if (casilla2.Checked) num += 2;
+                if (casilla3.Checked) num += 4;
+                if (casilla4.Checked) num += 8;
+                if (casilla5.Checked) num += 16;
+                if (casilla6.Checked) num += 32;
+                if (casilla7.Checked) num += 64;
+                if (casilla8.Checked) num += 128;
+                this.txtNumero.Text = num.ToString();
+            }
         }
     }
 }
